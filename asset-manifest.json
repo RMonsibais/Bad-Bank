@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Bad-Bank/static/css/main.9b1a57ad.css",
+    "main.js": "/Bad-Bank/static/js/main.9fde0a80.js",
+    "static/js/787.ee0c4617.chunk.js": "/Bad-Bank/static/js/787.ee0c4617.chunk.js",
+    "static/media/badbank.png": "/Bad-Bank/static/media/badbank.a73ac443245017fcbe6b.png",
+    "static/media/grad-bg.png": "/Bad-Bank/static/media/grad-bg.02fb8b84b95de18698ef.png",
+    "index.html": "/Bad-Bank/index.html",
+    "main.9b1a57ad.css.map": "/Bad-Bank/static/css/main.9b1a57ad.css.map",
+    "main.9fde0a80.js.map": "/Bad-Bank/static/js/main.9fde0a80.js.map",
+    "787.ee0c4617.chunk.js.map": "/Bad-Bank/static/js/787.ee0c4617.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b1a57ad.css",
+    "static/js/main.9fde0a80.js"
+  ]
+}
