@@ -1,0 +1,114 @@
+body {
+    background-image: url('./img/grad-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.card {
+    background-color: rgb(51, 140, 199);;
+    color: rgb(219, 219, 216);
+    text-align: center;
+    border: 4px solid transparent;
+    border-image-slice: 1;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    animation: 10s rotate linear infinite;
+    --angle: 0deg;
+    white-space: nowrap;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 200px;
+
+}
+
+/*text color--- rgb(219, 219, 216)
+bg color------  rgb(13, 71, 110)
+hover-------    rgb(9, 168, 231)
+
+trial bg-nav rgb(62, 154, 216)
+
+
+*/
+
+@keyframes rotate {
+    to {
+        --angle: 360deg;
+    }
+}
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+.card:hover {
+    color: white;
+    text-shadow: black 5px 5px 5px;
+    transition: 0.9s ease-in-out;
+}
+.card .btn {
+    border-color: rgb(13, 71, 110);
+    color: rgb(219, 219, 216);
+    text-shadow: rgb(244, 235, 236) 5px 5px 10px;
+    border: 3px solid transparent;
+    border-image: rgb(10, 43, 65);
+    border-radius: 5px;
+    border-image-slice: 1;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+
+}
+
+.card .btn:hover {
+    color: white;
+    background-color: rgb(9, 168, 231);
+    transition: 0.4s ease-in-out;
+}
+.Container {
+    margin: 0;
+    padding: 0;
+    background-color: skyblue;
+    color: rgb(9, 168, 231);
+}
+.navbar {
+    color: beige !important;
+    background-color: rgb(51, 140, 199)!important;
+}
+.navbar-brand {
+    font-weight: 700;
+    color: rgb(9, 168, 231);
+    text-shadow:  rgb(79, 143, 155)  5px 5px 10px;
+    margin-right: 150px;
+    }
+
+.nav-link {
+    color: beige;
+    white-space: nowrap;
+}
+.nav-link:hover {
+    color: rgb(9, 168, 231);
+}
+.nav-link.active {
+    background-color: rgb(204, 231, 247);
+    color: rgb(164, 205, 226);
+    border-radius: 15px;
+    transition: 0.4s ease-in;
+}
+.table {
+    background-image: url('./img/badbank.png');
+    opacity: 0.825;
+}
+.nav-link:focus {
+    color: rgb(164, 205, 226);
+}
+.navbar-toggler {
+    background-color: rgb(9, 168, 231);
+    opacity: 0.85;
+}
+
+.navbar-toggler-icon {
+    color: red !important;
+}
+.navbar-toggler:hover {
+    /* background-color: rgba(245, 245, 220, 0.75); */
+    background-color: rgb(9, 168, 231);
+
+}
