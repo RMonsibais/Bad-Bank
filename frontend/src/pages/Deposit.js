@@ -16,7 +16,7 @@ const Deposits = ({ onAdjust, user }) => {
                     {user.balance}
                 </div>
                     {submitted && <div>
-                        Your Deposit Was Submitted!
+                        Your Deposit Was Successful!
                     </div>}
                 <form onSubmit={handleSubmit}>
                     <div className="mb-3 row">

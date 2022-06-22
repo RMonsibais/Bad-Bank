@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Table from 'react-bootstrap/Table';
 
 export default function AllData({ logs }) {
