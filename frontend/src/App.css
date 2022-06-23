@@ -103,7 +103,12 @@ trial bg-nav rgb(62, 154, 216)
     background-color: rgb(9, 168, 231);
     opacity: 0.85;
 }
-
+.nav-link.disable {
+    margin: left;
+    background-color: rgb(164, 205, 226);
+    border-radius: 15px;
+    transition: 0.4s ease-in;
+}
 .navbar-toggler-icon {
     color: red !important;
 }
